@@ -153,6 +153,10 @@ func resourceMonitorMetricAlert() *schema.Resource {
 							Type:     schema.TypeFloat,
 							Required: true,
 						},
+						"skipMetricValidation": {
+							Type:			schema.TypeBool,
+							Required: false,
+						},
 					},
 				},
 			},
